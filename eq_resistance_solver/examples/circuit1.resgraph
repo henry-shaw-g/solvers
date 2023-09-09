@@ -1,0 +1,11 @@
+# note: IN and OUT are implicit junctions for reference when finding Req
+# junctions (only specify adjectent junctions here)
+J1
+J2
+J3
+
+# resistors (specify resistance, both adjacent terminals)
+R1 10 J1 J3
+R2 10 J1 J3
+R3 10 J1 R4
+R4 10 R3 J2
